@@ -1,4 +1,49 @@
-body p{
-    font-size: 100px;
-    text-align: center;
+body, html{
+    margin: 0;
+    padding: 0;
 }
+
+nav{
+    display: flex;
+    width: 100vw;
+    margin: 0;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #505050;
+    font-weight: 550;
+    font-size: 13px;
+
+}
+
+.nav-left{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.nav-left svg, .nav-left div{
+    margin-right: 25px;
+}
+
+.selected-tab{
+    padding: 0 4px;
+    color: #6399E1;
+    border-bottom: 2.5px solid #6399E1;
+}
+
+.nav-right{
+    display: flex;
+    position: absolute;
+    align-items: center;
+    right: 20px;
+    top: 20px;
+}
+
+.profile-pic img{
+    margin-left: 10px;
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
