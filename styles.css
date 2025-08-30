@@ -73,7 +73,8 @@ main{
     width: 80%;
     padding: 5px 10px;
     border-radius: 30px;
-    border: 1.5px solid #a3a3a377
+    border: 1.5px solid #a3a3a377;
+    align-items: center;
 }
 
 .search-bar{
