@@ -17,8 +17,8 @@
 body{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: start;
+    align-items: start;
     margin: 0;
 }
 
@@ -115,158 +115,73 @@ nav ul li{
     color: black;
 }
 
-.name-div{
-   font-family: Arial, Helvetica, sans-serif;
-   margin: 0 15px 10px 15px;
-   padding: 0;
-}
-
-.name{
-    font-size: 25px;
-    font-weight: 500;
-    margin: 5px 0 0 0;
-    padding: 0;
-}
-
-main{
-    width: 100%;
+.site-div{
+    padding: 10px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+}
+
+.site-info {
+    display: flex;
     align-items: center;
 }
 
-
-.tag{
-    font-size: 13px;
-    margin: 5px 0;
+.site-info-1 p{
+    margin: 0 0 5px 0;
 }
 
-.person-tabs{
-    display: flex;
-    justify-content: start;
-    width: 50%;
-    margin-bottom: 10px;
+.site-name{
+    color: rgb(32, 33, 36);
+    font-size: 14px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.person-tabs div{
-    display: flex;
-    justify-content: center;
-    width: 60px;
-    background-color: rgb(229, 237, 255);
-    margin-left: 8px;
-    padding: 10px 15px;
-    border-radius: 30px;
-    font-family: Arial, Helvetica, sans-serifs;
-    font-size: 13px;
+.site-url{
+    color: rgb(77, 81, 86);
+    font-size: 12px;
+    font-weight: 400;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 
-.selected-person-tab{
-    border: 1.5px solid black;
-}
-
-.person-tabs div p{
-    margin: 0;
-}
-
-.main-1{
-    width: 100%;
-    padding: 10px;
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    align-items: start;
-}
-
-.main-2{
-    display: flex;
-    width: 98%;
-    overflow-x: auto;
-    white-space: nowrap; 
-    -webkit-overflow-scrolling: touch;
-    -ms-overflow-style: none; 
-    scrollbar-width: none;
-    -ms-overflow-style: none; 
-    scrollbar-width: none; /* For Firefox */
-}
-
-.smain-2::-webkit-scrollbar {
-    display: none;
-}
-
-.main-2 img{
-    height: 250px;
-    margin-right: 5px;
-}
-
-.first-img{
-    border-radius: 10px 0 0 10px;
-    margin-left: 15px;
-    
-}
-
-.last-pic{
+.site-info img{
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
     margin-right: 10px;
 }
 
-.main-3{
-    width: 90%;
-
-}
-
-.main-3-1{
-    display: flex;
-    justify-content: center;
-    margin-top: 15px;
-    width: 100%;
+.site-title{
+    color: rgb(104, 29, 168);
+    margin: 8px 0 0 0;
+    font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.box-1{
-    background-color: #D3E3FD;
-    width: 49%;
-    border-radius: 13px;
-    padding: 15px;
-
-}
-
-.main-3-2{
-    background-color: #D3E3FD;
-    width: 96%;
-    padding: 10px 15px;
-    border-radius: 15px;
-    margin-top: 10px;
+.site-desc{
+    margin: 10px 0 0 0;
+    color: rgb(71, 71, 71);
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
 }
 
-.education{
-    font-size: 15px;
-}
-
-.school{
-    font-size: 15px;
+main{
+    width: 99%;
+    box-sizing: border-box;
+    padding: 10px;
     margin: 0;
-    padding: 0;
+    display: flex;
+    justify-content: start;
 }
 
-.box-1 p{
-    margin: 0 0 10px 0;
+.sites{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
 }
 
-.age-name{
-    font-size: 15px;
-
-}
-
-.age{
-    font-size: 19px;
-}
-
-.b-day{
-    font-size: 13px;
-}
 
 @media (min-width: 595px) {
     .logo{
@@ -274,7 +189,6 @@ main{
         left: 60px;
         top: 30px;
     }
-
     .search-div{
         height: 40px;
         width: 50%;
@@ -295,4 +209,19 @@ main{
         width: 40px;
         height: 40px;
     }
+
 }
+
+@media (min-width: 700px){
+    .sites{
+        width: 80%;
+    }
+}
+
+@media (min-width: 900px){
+    .sites{
+        width: 66%;
+        padding-left: 150px;
+    }
+}
+
