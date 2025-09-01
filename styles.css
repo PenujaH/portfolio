@@ -30,10 +30,19 @@ body {
   font-family: 'CMU Serif', serif;
   font-style: normal;
   display: flex;
+  max-width: 100%;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   margin: 20px;
+}
+
+main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  max-width: 800px;
 }
 
 .name {
@@ -69,6 +78,7 @@ body {
 
 .social{
   display: flex;
+  justify-content: space-between;
 }
 
 .icon{
@@ -87,4 +97,29 @@ body {
 .social-link a{
   text-decoration: none;
   color: black;
+}
+
+.project-name::before{
+  content: '•       ';
+}
+
+.project-name{
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.stack{
+  font-size: 14px;
+  font-style: italic;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.project-fact{
+  margin: 0;
+  margin-bottom: 3px;
+}
+
+.b{
+  font-weight: bolder;
 }
