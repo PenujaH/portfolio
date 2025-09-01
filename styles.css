@@ -107,13 +107,24 @@ main{
 .project-name{
   margin-top: 10px;
   margin-bottom: 5px;
+  font-weight: bolder;
 }
 
 .stack{
+  width: 100%;;
   font-size: 14px;
   font-style: italic;
   margin: 0;
   margin-bottom: 10px;
+}
+
+.year{
+  position: absolute;
+  right: 0;
+}
+
+.project{
+  margin-top: 19px;
 }
 
 .project-fact{
