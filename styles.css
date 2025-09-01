@@ -43,6 +43,7 @@ main{
   align-items: center;
   flex-direction: column;
   max-width: 800px;
+  padding: 10px;
 }
 
 .name {
