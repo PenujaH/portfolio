@@ -17,7 +17,7 @@
 body{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
     margin: 0;
 }
@@ -154,13 +154,8 @@ nav ul li{
 .site-title{
     color: rgb(104, 29, 168);
     margin: 8px 0 0 0;
-    font-size: 20px;
+    font-size: 14px;
     font-family: Arial, Helvetica, sans-serif;
-}
-
-.site-title:hover{
-    text-decoration: underline;
-    color: rgb(92, 25, 151);
 }
 
 .site-desc{
@@ -168,6 +163,7 @@ nav ul li{
     color: rgb(71, 71, 71);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
+    font-weight: 400;
 }
 
 main{
@@ -214,11 +210,6 @@ main{
         height: 40px;
     }
 
-    .site-desc{
-        font-size: 14px;
-        color: #0F9D58;
-    }
-
 }
 
 @media (min-width: 700px){
@@ -230,7 +221,7 @@ main{
 @media (min-width: 900px){
     .sites{
         width: 66%;
-        padding-left: 100px;
+        padding-left: 150px;
     }
 }
 
